@@ -23,35 +23,45 @@ This project focuses on developing a comprehensive IoT-based physics lab managem
 ## Achievements
 
 ### Website Development
-
+- **User Interface**: Developed a user-friendly website enabling users to view lab information and equipment details. To attract students and provide information about the lab.
+- **Authentication**: Implemented login and signup pages, supporting both traditional and social logins (Google, GitHub). College students and Teachers needs to Sign Up while School students can Log in diretcly using User Name and School code.
 
 ### Slot Booking System
-
+- **Booking Feature**: Enabled users to book lab slots, logged in user can view available slots and book as per their need this ensures organized lab usage and preventing scheduling conflicts.
 
 ### Firebase Integration
-
+- **Authentication**: Integrated Google and GitHub login options for seamless user access.
+- **Data Management**: Stored user data securely using Firebase Database. It is easy to setup and implement.
+- **Camera Stream**: Stored ESP32-Cam data securely using Firebase Realtime Database, which can be accessed anywhere and used to stream lab live feed to ThingsBoard Dashboard.
 
 ### ThingsBoard Dashboards
+- **Custom Dashboards**: Designed and implemented dashboards for various lab equipment, providing real-time monitoring and control capabilities. In total I made 5 Dashboard Indiviually for each lab euipments i.e 1. Light reflection refraction, 2. Heat Energy Boxes, 3. Spring Oscillator, 4. Robotic Arm, 5. Simple Pendulum.
+
+###  Introduced ESP32-CAM 
+- **Image Capture**: Developed code to capture and store images, aiding in remote experiment monitoring. This is fast and easy way to see what happening in lab from anywhere.
+- **Live Streaming**: ESP32-CAM to stream live video from lab environments. It can easily stream 20-30 FPS over good internet connection and free subscription of firebase.
 
 
-### ESP32-CAM Integration
+### Arduino Code 
+- **New Code**: Develop code for Spring Oscillator and ESP32-CAM for easy integration with ThingsBoard Dashboard.
+- **Enhancements**: Improved the existing codebase, integrating new features (In case to failed to connect default Wifi network it will enable its Access Point to enable user to search for any available network and connects to it).
+- **Optimisation**: Optimised the previous code.
 
-
-### Code Optimization
-
+### Actuator Simulator 
+- **Python Code**: Develop code in python for simulatie different actuators so that is can be easy to debug and test Devices and Dashboards in Things Board Platform.
 
 ---
 
 ## What can be done further
 
 ### Admin Panel Creation
-
+- **Full Functionality**: Design and develop a comprehensive admin panel to manage users and lab operations effectively. This will be helpful to admins, as they will have complete control over the platform without much knowledge of whats going in backend.
 
 ### Backend Integration with ThingsBoard API
-
+- **Seamless Interaction**: Connect the backend more efficiently with the ThingsBoard API, allowing users to switch between different functionalities with ease. Suppose a user books a slot, he/she will receive a mail to create password so that they can easily use Things Board Dashboard with existing Dashboard for that particular task. 
 
 ### Code Refinement
-- **Optimization**: Further optimize the code for performance improvements.
+- **Optimization**: Nothing is best so there is always room for further optimization of the code for performance improvements.
 - **Bug Fixes**: Identify and fix any remaining bugs to enhance system stability.
 
 ---
@@ -181,4 +191,4 @@ For any questions or further information, feel free to reach out:
 
 ---
 ## About GFOSS
-
+Open Technologies Alliance (GFOSS)  is a non-profit organization founded in 2008, 37 Universities and Research Centers are shareholders of GFOSS.   Our main goal is to promote Openness through the use and the development of Open Standards and Open Technologies in Education, Public Administration and Business in Greece. [Know More](https://gfoss.eu/)
