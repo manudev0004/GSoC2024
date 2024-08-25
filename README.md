@@ -63,6 +63,7 @@ This project focuses on developing a comprehensive IoT-based physics lab managem
 
 ### Code Refinement
 - **Optimization**: Nothing is best so there is always room for further optimization of the code for performance improvements.
+- **Security Fixes**: Futher work can be done to improve the security in the website, prevention and limiting the number of slot booking can be helpful too.
 - **Bug Fixes**: Identify and fix any remaining bugs to enhance system stability.
 
 ---
@@ -73,6 +74,7 @@ This project focuses on developing a comprehensive IoT-based physics lab managem
 - **Backend**: Node.js, Firebase
 - **Database**: Firebase Realtime Database and Firestore Database
 - **IoT Platform**: ThingsBoard
+- **Hardware**: C++ (Arduino)
 
 ---
 
@@ -134,7 +136,7 @@ This project focuses on developing a comprehensive IoT-based physics lab managem
 
 4. **Run the Application**:
    ```bash
-   npm start
+   npm run dev
    ```
 
 
@@ -189,6 +191,8 @@ For any questions or further information, feel free to reach out:
 
 ---
 ## Challenges and Learnings
+I think my favorite part of participating in GSoC was to work on real-world projects and solve real-world problems that would help many people. Thinking of this makes me excited that finally some work will be noticed by people other than my known ones. Other than that experience to contribute to an open-source project, being able to connect with many people, their help and suggestions and the chance to learn and grow together was really a deeply rewarding experience to me. 
+However, for me the most challenging part of participating in GSoC was time management. I think learning new technologies and overcoming errors on a tight timeline was definitely a challenge. Further, there are always some unforeseen circumstances too, so definitely time management was a thing that was difficult to me. But these things helped me gain valuable lessons. 
 
 ---
 ## About GFOSS
