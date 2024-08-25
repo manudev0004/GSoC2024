@@ -10,6 +10,7 @@
 | **Contributor**            | Manu Dev                                   |
 | **Mentors**                | Hariton Polatoglou                          |
 | **Demo Website**           | [Visit Here](https://iot-one-tau.vercel.app/)                                  |
+| **Orignal Repository**           | [Visit Here](https://github.com/eellak/gsoc2024-DIY-IoT-Physics/tree/main)                                  |
 | **Contact**                | [manudev0004@gmail.com](mailto:manudev0004@gmail.com) |
 
 ---
